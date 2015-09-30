@@ -12,6 +12,7 @@ import java.util.ArrayList;
  * サンプルとは少し違う形で書いたものです。
  * 
  * [問題] このクラスを親クラス（基底クラス）としてWordCount, WordAppearanceCountを作成してください。
+ * [追加課題] TemplateMethodパターンを用いてクラス設計を行いプログラムを作成してください
  * 
  * @author shiva
  *
