@@ -26,7 +26,7 @@ public abstract class TextProcessorBase {
 	 */
 	final public void completeProcess(String filePath) {
 		// 1. ファイルの読み込み
-		String[] words = textFileToStringArray("resources/jobs_speach.txt");
+		String[] words = textFileToStringArray(filePath);
 		for (String word : words) {
 			// 2. 文字列の処理
 			process(word);

@@ -62,10 +62,13 @@ public class WordAppearanceCountProcessor extends TextProcessorBase {
 
 		// 1. ファイルの読み込み
 		String[] words = wcp.textFileToStringArray("resources/jobs_speach.txt");
+		
 		// 2. 文字配列の処理
 		wcp.process(words);
+
 		// 3. 結果の表示
 		wcp.printResult();
+
 
 	}
 
